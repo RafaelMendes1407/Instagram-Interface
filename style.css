@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(247, 245, 245, 0.548);
+}
+
+.instagram-wrapper{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button{
+  width: 150px;
+}
+
+.phone{
+  padding: 5px;
+  width: 260px;
+}
+
+.logo {
+  padding: 3px;
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+}
+
+.instagram-continue{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.instagram-login{
+  background-color: #fff;
+  border: 1px solid rgb(187, 185, 185);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5px;
+  border-radius: 5px;
+}
+.instagram-login input {
+  padding: 8px;
+  margin-top: 10px;
+  border: 2px, solid, rgb(124, 121, 121);
+  outline: 0;
+}
+
+.loginOptions{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.button-label{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.loginOptions hr{
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.instagram-cadastro{
+  background-color: #fff;
+  border: 1px solid rgb(187, 185, 185);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+.instagram-phone{
+  width: 400px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 20px auto;
+  grid-template-areas: "phone1 ."
+                        "phone1 phone2";
+}
+
+.phone-card1 {
+  height: 490px;
+  grid-area: phone2;
+}
+.phone-card2 {
+  height: 490px;
+  grid-area: phone1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  margin-top: 40px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 0 6px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: rgb(18, 18, 102);
+}
+
+footer p {
+  font-size: 0.8;
+  color: grey;
+}
